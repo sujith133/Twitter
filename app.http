@@ -1,0 +1,22 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"adam_richard",
+  "password":"richard_567"
+}
+###
+GET http://localhost:3000/user/tweets/feed/
+jwToken : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo3LCJuYW1lIjoiQWRhbSBSaWNoYXJkIiwidXNlcm5hbWUiOiJhZGFtX3JpY2hhcmQiLCJwYXNzd29yZCI6InJpY2hhcmRfNTY3IiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTY5MjEzNTEzMX0.H8cQmIigmbomb2q5Wl7RsgDaDHoJifLgxBMwiFecdkU
+
